@@ -18,12 +18,18 @@ a:hover{
 	color: #db8d3f;
 }
 
+#header{
+	 border-bottom: 3px solid red;
+	 margin-bottom: 2%;
+}
+
 h1{
 	text-align: center;
 	margin: auto;
     width: 50%;
-
     padding: 10px;
+    font-size: 50px;
+    color: #bab08b;
 }
 
 h2.power{
@@ -31,13 +37,17 @@ h2.power{
 	margin:auto;
 	width: 50%;
     padding: 10px;
-    border-bottom: 3px solid green;
+    font-style: italic;
+    text-transform: uppercase;
 }
 
 #mini{
 	font-family: verdana;
 }
 
+#soldout{
+	color: #bab08b;
+}
 .image img{
 	margin: 2%;
 	float: left;
@@ -71,3 +81,4 @@ h2.power{
     display: block;
  	float:none;
  }
+}
