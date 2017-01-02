@@ -1,7 +1,73 @@
-h1{
-	color: blue;
+body {
+	font-family: helvetica;
+	color: white;
+	background-image: url("stardust.png");
+    background-repeat: repeat-y repeat-x;
+
 }
 
-h2{
-	color: red;
+a:link {
+    color: #b2e8d5;
 }
+
+a:visited {
+    color: #e0b2e8;
+}
+
+a:hover{
+	color: #db8d3f;
+}
+
+h1{
+	text-align: center;
+	margin: auto;
+    width: 50%;
+
+    padding: 10px;
+}
+
+h2.power{
+	text-align: center;
+	margin:auto;
+	width: 50%;
+    padding: 10px;
+    border-bottom: 3px solid green;
+}
+
+#mini{
+	font-family: verdana;
+}
+
+.image img{
+	margin: 2%;
+	float: left;
+	width: 50%;
+	height: 50%;
+	border-style: solid;
+	border-color: white;
+}
+
+.list{
+	width: 40%;
+	float: left;
+	padding: 2%;
+}
+
+.form{
+	float: none;
+}
+
+@media screen and (max-width: 661px) {
+ .image img {
+  width: 55%;
+  margin: auto;
+  display: block;
+  float: none;
+ }
+
+ .list{
+ 	width: 55%;
+ 	margin: auto;
+    display: block;
+ 	float:none;
+ }
