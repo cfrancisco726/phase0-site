@@ -19,7 +19,7 @@ a:hover{
 }
 
 #header{
-	 border-bottom: 3px solid red;
+	 border-bottom: 4px solid red;
 	 margin-bottom: 2%;
 }
 
@@ -39,6 +39,7 @@ h2.power{
     padding: 10px;
     font-style: italic;
     text-transform: uppercase;
+    border-bottom: 4px solid red;
 }
 
 #mini{
